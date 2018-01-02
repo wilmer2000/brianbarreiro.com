@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Brian Barreiro</title>
+
+	<style>
+		* { padding: 0; margin: 0; box-sizing: border-box; }
+		.flex-container {
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-direction: row;
+			-ms-flex-direction: row;
+			flex-direction: row;
+			-webkit-flex-wrap: nowrap;
+			-ms-flex-wrap: nowrap;
+			flex-wrap: nowrap;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-align-content: stretch;
+			-ms-flex-line-pack: stretch;
+			align-content: stretch;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			align-items: center;
+			height: 100vh;
+			width: 100%;
+			background: url(./background.jpg) no-repeat center;
+			background-size: cover;
+		}
+		.flex-center {
+			-webkit-order: 0;
+			-ms-flex-order: 0;
+			order: 0;
+			-webkit-flex: 0 1 auto;
+			-ms-flex: 0 1 auto;
+			flex: 0 1 auto;
+			-webkit-align-self: center;
+			-ms-flex-item-align: center;
+			align-self: center;
+		}
+		.logo {
+			display: block;
+			margin: 0;
+			padding: 0;
+		    width: 100%;
+		    max-width: 450px;
+		}
+		h3 {
+			margin-top: 30px;
+			font-weight: 100;
+			font-size: 30px;
+			font-family: verdana;
+			color: #fff;
+			text-align: center;
+		}
+	</style>	
+</head>
+<body>
+	<div class="flex-container">
+		<div class="flex-center">
+			<img class="logo" src="./logo.svg" alt="Brian Barreiro">
+			<h3>Estamos en construcción</h3>
+		</div>
+	</div>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111178764-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-111178764-1');
+	</script>
+
+</body>
+</html>
