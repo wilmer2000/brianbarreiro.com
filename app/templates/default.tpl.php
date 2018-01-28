@@ -19,9 +19,61 @@
   </head>
   <body>
 
+    <a href="#" class="btn_menu" id="btn_menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <nav class="menu" id="menu">
+      <ul>
+        <li><?php echo $html->link('projects', 'projects'); ?></li>
+        <li><?php echo $html->link('animations', 'animations'); ?></li>
+        <li><?php echo $html->link('retail-rendering', 'retail-rendering'); ?></li>
+        <li><?php echo $html->link('interior-design', 'interior-design'); ?></li>
+        <li><?php echo $html->link('revit', 'revit'); ?></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+
     <!-- This is the content placeholder, pages will be included here -->
     <?php echo template_content(); ?>
 
+
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="content-contact">
+            <form action="#" class="clearfix">
+              <div class="txt">
+                <h2>Get in touch</h2>
+              </div>
+              <div class="input">
+                <p><span>name</span>
+                  <input type="text" name="name">
+                </p>
+                <p><span>email</span>
+                  <input type="email" name="email">
+                </p>
+                <p><span>message</span>
+                  <textarea name="message" id="message"></textarea>
+                </p>
+                <button class="btn">Send</button>
+              </div>
+              <div class="social">
+                <ul>
+                  <li><a href="">LinkedIn</a></li>
+                  <li><a href="">Facebook</a></li>
+                  <li><a href="">Behance</a></li>
+                  <li><a href="">Email</a></li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

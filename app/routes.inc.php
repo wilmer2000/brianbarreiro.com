@@ -4,6 +4,16 @@ if(!defined('INCLUDED')) exit('This file cannot be opened directly');
 // ROOT route :)
 $route['ROOT'] = 'pages/home.php';
 
+$route['projects'] = 'pages/projects.php';
+$route['animations'] = 'pages/animations.php';
+$route['retail-rendering'] = 'pages/retail-rendering.php';
+$route['interior-design'] = 'pages/interior-design.php';
+$route['revit'] = 'pages/revit.php';
+
+
+$route['360'] = 'pages/360.php';
+
+
 // You can match simple routes
 // $route['admin/albums'] = 'pages/admin/albums/index.php';
 // That will match http://site.com/index.php/admin/albums and include 

@@ -64,6 +64,8 @@ h1,h2,h3,h4,h5,h6{font-weight: 400;margin: 0;}
     margin: 0;
     overflow: hidden;
     transition: all 250ms ease-out;
+    top: 0;
+    left: 0;
 }
 .menu.open{width: 100vw;}
 .menu ul{
@@ -263,3 +265,20 @@ section.works img {
 .content-contact form .social ul li{list-style: none;}
 .content-contact form .social ul li + li{margin-top: 15px;}
 .content-contact form .social ul li a{text-transform: lowercase;}
+
+.viewer_360{
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 10vh 0;
+    border: 0;
+    padding: 0;
+    position: relative;
+}
+.viewer_360 .pnlm-render-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
