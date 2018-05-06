@@ -3,4 +3,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('#menu').toggleClass('open');
 	});
+	$(this).bind("contextmenu", function (e) {
+		e.preventDefault();
+	});
 });

@@ -4,12 +4,12 @@ if(!defined('INCLUDED')) exit('This file cannot be opened directly');
 // ROOT route :)
 $route['ROOT'] = 'pages/home.php';
 
-$route['projects'] = 'pages/projects.php';
-$route['animations'] = 'pages/animations.php';
-$route['retail-rendering'] = 'pages/retail-rendering.php';
+$route['architectonical'] = 'pages/architectonical.php';
 $route['interior-design'] = 'pages/interior-design.php';
-$route['revit'] = 'pages/revit.php';
-
+$route['office-design'] = 'pages/office-design.php';
+$route['retail-design'] = 'pages/retail-design.php';
+$route['animations'] = 'pages/animations.php';
+$route['technical-drawings'] = 'pages/technical-drawings.php';
 
 $route['360'] = 'pages/360.php';
 

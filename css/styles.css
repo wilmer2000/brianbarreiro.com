@@ -137,7 +137,6 @@ section.home .flex-center h1 span {
     margin-left: 200px;
     box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.5);
 }
-#slide-home.carousel .carousel-inner img {filter: grayscale(100%);}
 #slide-home .carousel-control {
     background: rgba(0, 0, 0, 0.8);
     height: 100px;
@@ -182,7 +181,6 @@ section.works img {
     max-width: 800px;
     height: auto;
     margin-left: auto;
-    filter: grayscale(100%);
     box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.5);
 }
 .flex-grid.works .flex-items .work-item h2{
@@ -274,11 +272,4 @@ section.works img {
     border: 0;
     padding: 0;
     position: relative;
-}
-.viewer_360 .pnlm-render-container{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    left: 0;
 }

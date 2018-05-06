@@ -26,11 +26,12 @@
     </a>
     <nav class="menu" id="menu">
       <ul>
-        <li><?php echo $html->link('projects', 'projects'); ?></li>
-        <li><?php echo $html->link('animations', 'animations'); ?></li>
-        <li><?php echo $html->link('retail-rendering', 'retail-rendering'); ?></li>
-        <li><?php echo $html->link('interior-design', 'interior-design'); ?></li>
-        <li><?php echo $html->link('revit', 'revit'); ?></li>
+        <li><?php echo $html->link('Architectonical', 'architectonical'); ?></li>
+        <li><?php echo $html->link('Interior Design', 'interior-design'); ?></li>
+        <li><?php echo $html->link('Office Design', 'office-design'); ?></li>
+        <li><?php echo $html->link('Retail Design', 'retail-design'); ?></li>
+        <li><?php echo $html->link('Animations', 'animations'); ?></li>
+        <li><?php echo $html->link('Technical Drawings', 'technical-drawings'); ?></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Contact</a></li>
       </ul>

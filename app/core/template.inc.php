@@ -8,3 +8,9 @@ function template_content() {
         header('Location:' . $html->path_content('404.html'));
     }
 }
+function template_head_content($url_static = '') {
+    if(!empty($url_static)) {
+        global $html;
+        echo $html->css($url_static);
+    }
+}
