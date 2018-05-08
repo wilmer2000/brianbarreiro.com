@@ -30,37 +30,37 @@
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/projects-render.jpg" alt="">
-	      <h2>Architectonical</h2>
+	      <h2><?php echo $html->link('Architectonical', 'architectonical'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/animation-render.jpg" alt="">
-	      <h2>Interior Design</h2>
+	      <h2><?php echo $html->link('Interior Design', 'interior-design'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/retail-render.jpg" alt="">
-	      <h2>Office Design</h2>
+	      <h2><?php echo $html->link('Office Design', 'office-design'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/design-render.jpg" alt="">
-	      <h2>Retail Design</h2>
+	      <h2><?php echo $html->link('Retail Design', 'retail-design'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/revit-render.jpg" alt="">
-	      <h2>Animations</h2>
+	      <h2><?php echo $html->link('Animations', 'animations'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
 	      <img src="./img/revit-render.jpg" alt="">
-	      <h2>Technical Drawings</h2>
+	      <h2><?php echo $html->link('Technical Drawings', 'technical-drawings'); ?></h2>
 	    </div>
 	  </div>
 	</div>
