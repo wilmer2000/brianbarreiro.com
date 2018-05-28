@@ -33,16 +33,13 @@
         <li><?php echo $html->link('Animations', 'animations'); ?></li>
         <li><?php echo $html->link('Technical Drawings', 'technical-drawings'); ?></li>
         <li><a href="#">About us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-
-    <!-- This is the content placeholder, pages will be included here -->
     <?php echo template_content(); ?>
 
-
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="row">
           <div class="content-contact">

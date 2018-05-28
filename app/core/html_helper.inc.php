@@ -29,6 +29,14 @@ class HtmlHelper
         $list .= '</ul>';
         return $list;
     }
+    function generateGallery($cantPhotos, $url, $nameUrl, $format) {
+        $gallery .= '<div class="grid-photos">';
+        for ($i = 1; $i <= $cantPhotos; $i++) {
+            $gallery .= '<div class="item-photo"><img src="' . $url . $nameUrl . $i . $format . '" class="img-responsive"/></div>';
+        };
+        $gallery .= '</div>';
+        return $gallery;
+    }
 
     public function open_form($url = NULL, $method = 'POST', $multitype = FALSE) {
         $url = is_null($url) ? $_SERVER['REQUEST_URI'] : $this->path($url);

@@ -279,3 +279,24 @@ section.works img {
     padding: 0;
     position: relative;
 }
+
+.grid-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+.grid-photos .item-photo {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+}
+.grid-photos .item-photo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.grid-photos .item-photo:nth-child(odd) {}
+.grid-photos .item-photo:nth-child(even) {}
