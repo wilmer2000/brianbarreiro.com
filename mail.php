@@ -3,7 +3,7 @@
   $mail = $_POST['mail'];
   $comment = $_POST['message'];
   $message = '';
-  $to  = 'wilmervzla2000@gmail.com';
+  $to  = 'Brian.barreiro1994@gmail.com';
   $subject = 'Contacto desde la Página de EasyCharge';
 
   $message ="Nombre: ".$name."\rEmail: ".$mail."\rMensaje: ". $comment ;
