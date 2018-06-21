@@ -23,4 +23,4 @@ $config['session_duration'] = 60 * 60 * 24 * 7; // One week
 $config['base_path']  = '';
 
 // This is useful for development, it shows errors and ignores caching
-$config['debug_mode'] = true;
+$config['debug_mode'] = false;
