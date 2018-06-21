@@ -16,6 +16,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php echo $html->css('css/styles.css'); ?>
+    <?php echo $html->css('css/responsive.css'); ?>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
 
@@ -43,7 +45,7 @@
       <div class="container">
         <div class="row">
           <div class="content-contact">
-            <form action="#" class="clearfix">
+            <form class="clearfix">
               <div class="txt">
                 <h2>Get in touch</h2>
               </div>
@@ -57,7 +59,13 @@
                 <p><span>message</span>
                   <textarea name="message" id="message"></textarea>
                 </p>
+                <p>
+                  <div class="g-recaptcha" data-sitekey="6LfBAmAUAAAAAJrZC1HaKcnIVh0-f-WxzCrpSbcv"></div>
+                </p>
                 <button class="btn">Send</button>
+                <div class="messgmodal">
+                  <div class="spinner"></div>
+                </div>
               </div>
               <div class="social">
                 <ul>

@@ -1,0 +1,61 @@
+@media (min-width: 1201px) {
+}
+@media (max-width: 1400px) {
+    .flex-grid.works .flex-items:nth-child(odd) .work-item h2 {right: 30%;}
+}
+@media (max-width: 1100px) {
+    .flex-grid.works .flex-items:nth-child(odd) .work-item h2 {right:initial;left: 20%;}
+    .flex-grid.works .flex-items .work-item h2{left: 20%;}
+    #slide-home.carousel,
+    .flex-grid.works .flex-items:nth-child(odd) .work-item img,
+    .flex-grid.works .flex-items .work-item img{margin: 0 auto;}
+    .flex-grid.works .flex-items .work-item,
+    section.home .flex-center .flex-item{padding: 0 15px;}
+}
+@media (max-width: 991px) {
+    .grid-photos .item-photo img {width: 100%;}
+    .grid-photos .item-photo {margin-bottom: 100px;}
+
+    .content-contact {max-width: 450px;margin: 0 auto;}
+    .content-contact form .txt,
+    .content-contact form .input,
+    .content-contact form .social{width: 100%; padding: 0}
+    .content-contact form .txt{margin-bottom: 50px;}
+    .content-contact form .btn{width: 100%;margin-top: 100px}
+    .content-contact form .social{margin: 50px 0;}
+    .content-contact form .social ul li{text-align: center;}
+    section.home .flex-center .flex-item {position: relative;}
+    section.home .flex-center h1{
+        top: initial;
+        left: 50px;
+        bottom: 40px;
+        right: initial;
+    }
+}
+@media (max-width: 768px) {
+    .flex-grid.works .flex-items .work-item h2{font-size: 8vw;width: 30vw;height: 30vw;}
+}
+@media (max-width: 660px) {
+    .grid-photos .item-photo {margin-bottom: 50px;}
+    .menu ul li {text-align: center;width: 100%;}
+    .flex-grid.works .flex-items {margin: 50px 0}
+    .flex-grid.works .flex-items .work-item h2 {
+        margin: 0;
+        bottom: 40px;
+        left: 50px!important;
+        top: initial;
+        right: initial;
+    }
+    section.home .flex-center h1{
+        width: calc(100% - 100px);
+        text-align: center;
+        position: relative;
+        margin: 0;
+    }
+    section.home .flex-center h1 img{ width: 100%;}
+} 
+@media (max-width: 480px) {
+    section.home .flex-center h1 span {font-size: 14px;}
+    section.home .flex-center h1 {padding: 10px}
+    .menu ul li a {font-size:2em }
+} 
