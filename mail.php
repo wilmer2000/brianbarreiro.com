@@ -10,6 +10,6 @@
     
   // Para enviar un correo HTML, debe establecerse la cabecera Content-type
   $headers = "De: " . $_POST["name"] . "<". $_POST["mail"] .">\r\n";
-// Enviarlo
-mail($to, $subject, $message, $headers);
+  // Enviarlo
+  mail($to, $subject, $message, $headers);
 ?>

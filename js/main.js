@@ -14,9 +14,9 @@ $(document).ready(function () {
 		event.preventDefault();
 		if (grecaptcha.getResponse() != "") {
 			var data = {
-				'name': $("#contacto #name").val(),
-				'mail': $("#contacto #email").val(),
-				'message': $("#contacto #message").val()
+				'name': $("#contact #name").val(),
+				'mail': $("#contact #email").val(),
+				'message': $("#contact #message").val()
 			};
 			$('.messgmodal').fadeIn('fast');
 			setTimeout(function () {
@@ -26,7 +26,7 @@ $(document).ready(function () {
 					data: data,
 					success: function () {
 						$('.messgmodal').fadeOut('fast');
-						$("#contacto .form-control").val('');
+						$("#contact input,#contact textarea").val('');
 						grecaptcha.reset();
 					}
 				});
