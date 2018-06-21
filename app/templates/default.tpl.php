@@ -50,10 +50,10 @@
               </div>
               <div class="input">
                 <p><span>name</span>
-                  <input type="text" name="name">
+                  <input type="text" name="name" id="name">
                 </p>
                 <p><span>email</span>
-                  <input type="email" name="email">
+                  <input type="email" name="email" id="email">
                 </p>
                 <p><span>message</span>
                   <textarea name="message" id="message"></textarea>
