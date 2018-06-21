@@ -4,21 +4,21 @@
 	    <div id="slide-home" class="carousel slide" data-ride="carousel">
 	      <div class="carousel-inner" role="listbox">
 	        <div class="item active">
-	          <img src="./img/slide-1.jpg" alt="...">
+						<?php echo $html->img('/img/slide-1.jpg'); ?>
 	        </div>
 	        <div class="item">
-	          <img src="./img/slide-2.jpg" alt="...">
+						<?php echo $html->img('/img/slide-2.jpg'); ?>
 	        </div>
 	        <div class="item">
-	          <img src="./img/slide-3.jpg" alt="...">
+						<?php echo $html->img('/img/slide-3.jpg'); ?>
 	        </div>
 	        <div class="item">
-	          <img src="./img/slide-4.jpg" alt="...">
+						<?php echo $html->img('/img/slide-4.jpg'); ?>
 	        </div>
 	      </div>
 	    </div>
 	    <h1>
-	      <img src="./img/text_logo.svg" alt="Brain Barreiro">
+				<?php echo $html->img('/img/text_logo.svg', ['alt', 'Brain Barreiro']); ?>
 	      <span>design & visualization</span>
 	    </h1>
 	  </div>
@@ -29,39 +29,28 @@
 	<div class="flex-grid works">
 	  <div class="flex-items">
 	    <div class="work-item">
-	      <img src="./img/projects-render.jpg" alt="">
+				<?php echo $html->img('/img/projects-render.jpg'); ?>
 	      <h2><?php echo $html->link('Architectonical', 'architectonical'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
-	      <img src="./img/animation-render.jpg" alt="">
+				<?php echo $html->img('/img/animation-render.jpg'); ?>
 	      <h2><?php echo $html->link('Interior Design', 'interior-design'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
-	      <img src="./img/retail-render.jpg" alt="">
+				<?php echo $html->img('/img/retail-render.jpg'); ?>
 	      <h2><?php echo $html->link('Office Design', 'office-design'); ?></h2>
 	    </div>
 	  </div>
 	  <div class="flex-items">
 	    <div class="work-item">
-	      <img src="./img/design-render.jpg" alt="">
+				<?php echo $html->img('/img/design-render.jpg'); ?>
 	      <h2><?php echo $html->link('Retail Design', 'retail-design'); ?></h2>
 	    </div>
 	  </div>
-	  <div class="flex-items">
-	    <div class="work-item">
-	      <img src="./img/revit-render.jpg" alt="">
-	      <h2><?php echo $html->link('Animations', 'animations'); ?></h2>
-	    </div>
-	  </div>
-	  <div class="flex-items">
-	    <div class="work-item">
-	      <img src="./img/revit-render.jpg" alt="">
-	      <h2><?php echo $html->link('Technical Drawings', 'technical-drawings'); ?></h2>
-	    </div>
-	  </div>
+
 	</div>
 </section>

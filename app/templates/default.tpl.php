@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $config['site_title']; ?></title>
     <!-- Bootstrap -->
-    <?php echo $html->css('css/bootstrap.min.css'); ?>
+    <?php echo $html->css('/css/bootstrap.min.css'); ?>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -15,8 +15,8 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <?php echo $html->css('../css/styles.css'); ?>
-    <?php echo $html->css('../css/responsive.css'); ?>
+    <?php echo $html->css('/css/styles.css'); ?>
+    <?php echo $html->css('/css/responsive.css'); ?>
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
@@ -28,14 +28,13 @@
     </a>
     <nav class="menu" id="menu">
       <ul>
+        <li><?php echo $html->link('Home', 'ROOT'); ?></li>
         <li><?php echo $html->link('Architectonical', 'architectonical'); ?></li>
         <li><?php echo $html->link('Interior Design', 'interior-design'); ?></li>
         <li><?php echo $html->link('Office Design', 'office-design'); ?></li>
         <li><?php echo $html->link('Retail Design', 'retail-design'); ?></li>
-        <li><?php echo $html->link('Animations', 'animations'); ?></li>
-        <li><?php echo $html->link('Technical Drawings', 'technical-drawings'); ?></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#contact">Contact</a></li>
+
+        <li><a id="btn_contact" href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -83,8 +82,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <?php echo $html->js('../js/bootstrap.min.js'); ?>
-    <?php echo $html->js('../js/main.js'); ?>
+    <?php echo $html->js('/js/bootstrap.min.js'); ?>
+    <?php echo $html->js('/js/main.js'); ?>
   </body>
 </html>
 
